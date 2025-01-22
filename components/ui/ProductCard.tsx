@@ -7,7 +7,6 @@ import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import { ProductCards } from "@/typing";
 import { useCart } from "@/app/context/CartContext";
-import Link from "next/link";
 import { useNotifications } from "@/app/context/NotificationContext";
 
 const ProductCard = ({ product }: { product: ProductCards }) => {
@@ -76,7 +75,7 @@ const ProductCard = ({ product }: { product: ProductCards }) => {
                 ? product?.isDiscounted
                   ? "bg-highlight2 absolute top-10 left-3 max-w-20 z-10 max-h-7 flex flex-wrap p-1 px-2 rounded text-white text-xs overflow-hidden justify-center items-center"
                   : "bg-highlight2 absolute top-3 left-3 max-w-20 z-10 max-h-7 flex flex-wrap p-1 px-2 rounded text-white text-xs overflow-hidden justify-center items-center"
-                : "hidden"
+                : "hidden" 
             }`}
           >
             NEW
@@ -100,8 +99,8 @@ const ProductCard = ({ product }: { product: ProductCards }) => {
           </div>
         </div>
         <div className="flex bg-secondary p-2 justify-end rounded-[8px] hover:bg-primary cursor-pointer hover:text-white ">
-          <button onClick={handleAddToCart}>
-            <PiShoppingCart className="text-xl flex" />
+          <button onClick={handleAddToCart}>  
+            Add to Cart  <PiShoppingCart className="text-xl flex" />
           </button>
         </div>
       </div>
