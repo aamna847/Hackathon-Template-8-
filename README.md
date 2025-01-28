@@ -66,7 +66,7 @@ A pixel-perfect, responsive e-commerce website built using **Next.js**, **Tailwi
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aamna847/Hackathon-Template-8-.git
    ```
 2. Navigate to the project directory:
    ```bash
