@@ -83,7 +83,7 @@ A pixel-perfect, responsive e-commerce website built using **Next.js**, **Tailwi
 5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Deployment
-The project is deployed on Vercel. Visit the live demo [https://giaic-hackathon-kohl.vercel.app/](https://giaic-hackathon-kohl.vercel.app/).
+The project is deployed on Vercel. Visit the live demo [https://hackathon-template-8-eight.vercel.app/].
 
 To deploy your own version:
 1. Create a Vercel account.
