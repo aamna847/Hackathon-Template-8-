@@ -96,7 +96,7 @@ To deploy your own version:
 3. **Code Quality**: Modular, clean, and well-documented.
 
 ## Credits
-- Developed by: **Owais Abdullah**
+- Developed by: **Aamna Rana**
 - Deployed on: **Vercel**
 
 ---
