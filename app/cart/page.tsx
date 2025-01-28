@@ -69,14 +69,16 @@ const Cart = () => {
                           value={item.quantity}
                           onChange={(e) => handleQuantityChange(item._id, e)}
                           className="border rounded px-2 w-20"
+                          title="Quantity"
+                          placeholder="Enter quantity"
                         />
                       </div>
 
                       <div className="flex gap-4 mt-1 text-accent text-lg">
-                        <button>
+                        <button title="Add to Wishlist">
                           <FiHeart />
                         </button>
-                        <button onClick={() => handleRemove(item._id)}>
+                        <button title="Remove from Cart" onClick={() => handleRemove(item._id)}>
                           <RiDeleteBinLine />
                         </button>
                       </div>

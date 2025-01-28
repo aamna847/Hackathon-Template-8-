@@ -85,7 +85,7 @@ const Header = () => {
           {/* Mobile Menu with shadcn Component */}
           <Drawer direction="left" open={isOpen} onOpenChange={setIsOpen}>
             {/* Button to Toggle Drawer */}
-            <button onClick={toggleDrawer} className="text-3xl lg:hidden">
+            <button onClick={toggleDrawer} className="text-3xl lg:hidden" aria-label="Toggle Menu">
               <CgMenuRight />
             </button>
             <DrawerContent className="bg-background mx-auto max-w-[80%] text-left px-6 lg:max-w-[35%] md:max-w-[50%]">
